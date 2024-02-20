@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.header{
+    text-align: center;
+    padding: 30px;
+}
+.info{
+    padding-left: 25px;
+   
+}
+.info h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.info p{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.skills h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.skills li{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    position: static;
+}
+
+.pr1 , .pr2 ,   .pr3{
+    height: 200px;
+    width:400px;
+    border: 2px solid white;
+}
+.project{
+    padding-bottom: 50px;
+}
+img{
+    height: 199px;
+    width: 399px;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+}
+.resume h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.resume a{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.resume{
+    padding-bottom: 40px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+   
+}
