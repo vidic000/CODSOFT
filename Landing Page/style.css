@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 234, 235);
+}
+header{
+    background-color: rgb(65, 60, 60);
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding: 40px;
+}
+header p{
+    padding-top: 20px;
+}
+.nav-bar{
+    background-color: rgb(114, 113, 113);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-bar a{
+    flex-direction: row;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+.intro{
+   text-align: center;
+   padding-top: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding-top: 30px;
+    justify-content: center;
+}
+.container1, .container2, .container3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border-radius: 7%;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 7%;
+}
+.describe{
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+.about-us{
+    text-align: center;
+    padding-top: 30px;
+}
+.about-us p{
+    padding-top: 15px;
+}
+.contact-us{
+    text-align: center;
+    padding-top: 30px;
+}
+footer {
+    background-color: rgb(65, 60, 60);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
